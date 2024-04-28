@@ -2,7 +2,7 @@
 include('conn.php');
 
 // Assuming 'datasetspotifytest' is the table name in your database
-$sqlread = "SELECT * FROM datasetspotifytest";
+$sqlread = "SELECT * FROM ####";
 $result = $conn->query($sqlread);
 
 if (!$result) {
