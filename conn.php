@@ -2,7 +2,7 @@
 
 $user = "root";
 $password = "";
-$db = "spotify";
+$db = "###";
 $server = "127.0.0.1";
 
 $conn = new mysqli($server, $user, $password, $db);
